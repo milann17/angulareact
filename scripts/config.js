@@ -12,11 +12,12 @@ requirejs.config({
          //componets
          "dashboardController": "components/dashboard/dashboard.controller",
          "aboutController": "components/about/about.controllers",
-
+         "rootController" : "components/root/root.controller",
 
          // directives
          "todoDirective" : "shared/todo/todo.directive",
          "todoController": "shared/todo/todo.controller",
+
 
          // services
          "taskService" : "shared/services/task.service",

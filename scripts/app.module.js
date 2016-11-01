@@ -10,7 +10,11 @@ define(["angularAMD", "angular-route", "appController","userService"], function 
         templateUrl: "scripts/components/about/about.html",
         controller: "aboutController"
        }))
+      .when("/", angularAMD.route({
+        templateUrl: "scripts/components/root/root.html",
+        controller: "rootController"
 
+      }))
 
 
 

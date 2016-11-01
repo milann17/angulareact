@@ -4,12 +4,12 @@ define(["angularAMD"], function (app) {
     function($q) {
 
       var todos = [
-        {"name": "ocisti kucu"},
-        {"name": "nahrani kera"},
-        {"name": "pokosi travnjak"},
-        {"name": "plati lopovima"},
-        {"name": "trcanje"},
-        {"name": "kendo"}
+        {"name": "Ocisti kucu"},
+        {"name": "Nahrani kera"},
+        {"name": "Pokosi travnjak"},
+        {"name": "Rucaj"},
+        {"name": "Idi na trening"},
+        {"name": "Posao"}
       ];
 
       this.helloWorld = function() {
@@ -26,12 +26,12 @@ define(["angularAMD"], function (app) {
 
       this.deleteTodo = function(todo) {
         console.log("The " + todo.name + " todo has been deleted!")
-        // other logic
+
       };
 
       this.saveTodos = function(todos) {
         console.log(todos.length + " todos have been saved!");
-        // other logic...
+        
       };
     }
   ]);
