@@ -12,7 +12,7 @@ requirejs.config({
          //componets
          "dashboardController": "components/dashboard/dashboard.controller",
          "aboutController": "components/about/about.controllers",
-         "rootController" : "components/root/root.controller",
+         "loginController": "components/login/login.controller",
 
          // directives
          "todoDirective" : "shared/todo/todo.directive",
